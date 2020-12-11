@@ -83,6 +83,7 @@ Log("" + true + '\n');
 Log("" + "Контроль пройден" + '\n');
 
 }
+  //обработка исключений (ввод букв, а не цифр - ошибка)
 static int GetNumber(string title)
 {
 while (true)
